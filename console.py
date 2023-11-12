@@ -22,6 +22,13 @@ class HBNBCommand(cmd.Cmd):
     """Do nothing upon recieving an empty line."""
     pass
 
+  def do_clear(self, line):
+        """Clears the screen"""
+        if os.name == 'nt':
+            os.system('cls')
+        else:
+            os.system('clear')  
+
   def do_quit(self, arg):
     """Quit command to exit the program
     """
