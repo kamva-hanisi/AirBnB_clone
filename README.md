@@ -1,9 +1,19 @@
-~ Here README.md:
-description of the project
-description of the command interpreter:
+# 0x00. AirBnB clone - The console
 
-# how to start it
-# how to use it
-# examples
-~ You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. For format, reference Docker’s AUTHORS page
-~ You should use branches and pull requests on GitHub - it will help you as team to organize your work
+# 0x01 Introduction
+
+Team project to build a clone of AirBnB.
+
+The console is a command interpreter to manage objects abstraction
+between objects and how they are stored.
+
+The console will perform the following tasks:
+
+    * create a new object
+    * retrive an object from a file
+    * do operations on objects
+    * destroy an object
+
+# Storage
+
+All the classes are handled by the Storage engine in the FileStorage Class.
